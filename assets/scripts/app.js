@@ -17,7 +17,7 @@ class Tooltip {
     this.closeNotifier = closeNotifiers;
   }
 
-  closeTooltip = () => {
+  closeTooltip () {
     this.detach();
     this.closeNotifier();
   };
